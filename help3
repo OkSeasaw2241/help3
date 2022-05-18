@@ -1,6 +1,6 @@
 import re
 string = "+91-12345378920 "
-if re.search("^\+[0-9]{2}-[0-9]{10}" , string):
+if re.search("^\+[0-9]{2}-[0-9]{10}$" , string):
     print("Valid")
 else:
     print("Not Valid")
